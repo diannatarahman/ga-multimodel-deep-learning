@@ -24,11 +24,11 @@ Define range for every feature in Chromosome
 
 # Results
 ## Model occurence:
-![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/Figure_9.png)
+#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/
 ## Optimizer occurence:
-![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/Figure_15.png)
+#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/
 ## Number of layers occurence:
-![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/Figure_6.png)
+#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/
 
 # Conclusion
 To achieve the best performances of deep learning model , we may:
