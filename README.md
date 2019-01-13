@@ -19,7 +19,7 @@ Define range for every feature in Chromosome
 6. dropout :  0.0 – 1.0
 7. batch_size : 8 - 64
 8. max_length of pad sequence : 10 - 100
-9. number of word for imdb : 10000 – 32767
+9. number of word for imdb : 10000 – 20000
 10. Optimizer :  Adam (1), RMSprop (2), Adagrad (3),  Adadelta (4), SGD (5), Adamax (6), Nadam (7)
 
 # Conclusion
