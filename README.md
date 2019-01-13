@@ -22,6 +22,14 @@ Define range for every feature in Chromosome
 9. number of word for imdb : 10000 – 20000
 10. Optimizer :  Adam (1), RMSprop (2), Adagrad (3),  Adadelta (4), SGD (5), Adamax (6), Nadam (7)
 
+# Results
+## Model occurence:
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/Figure_9.png)
+## Optimizer occurence:
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/Figure_15.png)
+## Number of layers occurence:
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/Figure_6.png)
+
 # Conclusion
 To achieve the best performances of deep learning model , we may:
 1. Fine Tune Hyper-Parameters 
