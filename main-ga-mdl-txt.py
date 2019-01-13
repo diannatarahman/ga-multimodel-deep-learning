@@ -11,6 +11,22 @@ import tensorflow as tf
 import traceback
 import random
 
+MODELS = {
+        1 : 'DNN',
+        2 : 'CNN',
+        3 : 'LSTM'
+    }
+
+OPTIMIZERS = {
+        1 : 'Adam',
+        2 : 'RMSprop',
+        3 : 'Adagrad',
+        4 : 'Adadelta',
+        5 : 'SGD',
+        6 : 'Adamax',
+        7 : 'Nadam',
+    }
+
 class Individual:
     obj = {}
 
@@ -75,22 +91,10 @@ def mate(par1, par2):
 
 print("HELLO AI WORLD!!")
 def getModel(x):
-    return {
-        1 : 'DNN',
-        2 : 'CNN',
-        3 : 'LSTM'
-    }.get(x, 'none')
+    return MODELS.get(x, 'none')
 
 def getOptimizer(x):
-    return {
-        1 : 'Adam',
-        2 : 'RMSprop',
-        3 : 'Adagrad',
-        4 : 'Adadelta',
-        5 : 'SGD',
-        6 : 'Adamax',
-        7 : 'Nadam',
-    }.get(x, 'none')
+    return OPTIMIZERS.get(x, 'none')
 
 def build_DNN_model(neurons, embedding_dims, max_features, maxlen, optimizer, dropout):
     model = Sequential()
@@ -200,7 +204,7 @@ def cal_fitness(population):
 POOL_SIZE=20
 #model,optimizer,layer,n1,n2,n3,max_features,embedding_dim,max_len,dropout,batch,epoch
 MIN = (1,1,1,8,0,0,10000,8,10,0.0,8,1)
-MAX = (3,8,3,356,256,256,20000,256,100,1.0,64,10)
+MAX = (len(MODELS),len(OPTIMIZERS),3,356,256,256,20000,256,100,1.0,64,10)
 N_PARAMS = len(MIN)
 
 if __name__ == '__main__':
