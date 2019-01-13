@@ -88,9 +88,8 @@ def getOptimizer(x):
         3 : 'Adagrad',
         4 : 'Adadelta',
         5 : 'SGD',
-        6 : 'Adadelta',
-        7 : 'Adamax',
-        8 : 'Nadam',
+        6 : 'Adamax',
+        7 : 'Nadam',
     }.get(x, 'none')
 
 def build_DNN_model(neurons, embedding_dims, max_features, maxlen, optimizer, dropout):
