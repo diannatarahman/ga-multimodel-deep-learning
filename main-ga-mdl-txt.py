@@ -204,7 +204,7 @@ def cal_fitness(population):
 POOL_SIZE=20
 #model,optimizer,layer,n1,n2,n3,max_features,embedding_dim,max_len,dropout,batch,epoch
 MIN = (1,1,1,8,0,0,10000,8,10,0.0,8,1)
-MAX = (len(MODELS),len(OPTIMIZERS),3,356,256,256,20000,256,100,1.0,64,10)
+MAX = (len(MODELS),len(OPTIMIZERS),3,512,256,256,20000,256,100,1.0,64,10)
 N_PARAMS = len(MIN)
 
 if __name__ == '__main__':
