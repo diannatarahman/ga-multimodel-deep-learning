@@ -24,16 +24,16 @@ Define range for every feature in Chromosome
 
 # Results
 ## Model occurence:
-#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/model.png)
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/model.png)
 ## Optimizer occurence:
-#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/optimizer.png)
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/optimizer.png)
 ## Number of layers occurence:
-#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/layer.png)
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/layer.png)
 ## Performance:
-#![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/performance.png)
+![alt text](https://raw.githubusercontent.com/diannatarahman/ga-multimodel-deep-learning/master/img/performance.png)
 
 # Conclusion
-To achieve the best performances of deep learning model , we may:
+To achieve the best performances of deep learning model, we may:
 1. Fine Tune Hyper-Parameters 
 2. Improve Text Pre-Processing 
 3. Use Dropout Layer
